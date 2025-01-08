@@ -1,0 +1,14 @@
+
+{
+    "name": "Dev Container",
+    "build": {
+        "dockerfile": "./Dockerfile"
+    },
+    "remoteUser": "vscode",
+    "customizations": {
+        "vscode": {
+            "extensions": ["ms-azuretools.vscode-docker"],
+            "settings": {"editor.formatOnSave":true,"terminal.integrated.shell.linux":"/bin/bash"}
+        }
+    }
+}
