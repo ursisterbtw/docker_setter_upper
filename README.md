@@ -1,6 +1,6 @@
 # Dockerfile Generator
 
-A command-line tool to generate Docker-related configuration files for development environments.
+A CLI tool for generating Docker-related configuration files.
 
 ## Installation
 
